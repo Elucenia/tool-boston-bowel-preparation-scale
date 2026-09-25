@@ -1,0 +1,77 @@
+[
+  {
+    "label": "3-3-3: 9, adequado",
+    "input": {
+      "dir": "3",
+      "trans": "3",
+      "esq": "3"
+    },
+    "expected": {
+      "score": 9,
+      "level": "low",
+      "verdict": "adequado"
+    },
+    "originalInput": {
+      "dir": "3",
+      "trans": "3",
+      "esq": "3"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "2-2-2: 6, adequado (limite)",
+    "input": {
+      "dir": "2",
+      "trans": "2",
+      "esq": "2"
+    },
+    "expected": {
+      "score": 6,
+      "level": "low",
+      "verdict": "adequado"
+    },
+    "originalInput": {
+      "dir": "2",
+      "trans": "2",
+      "esq": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "1-3-3: 7, inadequado pelo cólon direito",
+    "input": {
+      "dir": "1",
+      "trans": "3",
+      "esq": "3"
+    },
+    "expected": {
+      "score": 7,
+      "level": "high",
+      "verdict": "inadequado"
+    },
+    "originalInput": {
+      "dir": "1",
+      "trans": "3",
+      "esq": "3"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "1-1-1: 3, inadequado",
+    "input": {
+      "dir": "1",
+      "trans": "1",
+      "esq": "1"
+    },
+    "expected": {
+      "score": 3,
+      "level": "high"
+    },
+    "originalInput": {
+      "dir": "1",
+      "trans": "1",
+      "esq": "1"
+    },
+    "expandedZeroOptions": []
+  }
+]

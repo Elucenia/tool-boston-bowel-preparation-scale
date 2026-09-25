@@ -1,0 +1,177 @@
+{
+  "tool": {
+    "id": "boston-bowel-preparation-scale",
+    "title": "Escala de Boston (BBPS)",
+    "short": "Qualidade do preparo intestinal na colonoscopia",
+    "desc": "Calcule a Escala de Preparo Intestinal de Boston (BBPS): nota de 0 a 3 por segmento do cólon e total de 0 a 9, com o critério de preparo adequado.",
+    "lead": "Pontua a limpeza de cada segmento do cólon depois das manobras de lavagem e aspiração. Padroniza o laudo e define se o preparo foi adequado para detectar pólipos.",
+    "spec": [
+      "endoscopia",
+      "coloproctologia",
+      "gastroenterologia"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "dir",
+        "Cólon direito (ceco e ascendente)",
+        "sel",
+        {
+          "opts": {
+            "0": "0 – mucosa não vista (fezes sólidas)",
+            "1": "1 – parte da mucosa vista",
+            "2": "2 – resíduo mínimo, mucosa bem vista",
+            "3": "3 – toda a mucosa bem vista"
+          }
+        }
+      ],
+      [
+        "trans",
+        "Cólon transverso (flexuras incluídas)",
+        "sel",
+        {
+          "opts": {
+            "0": "0 – mucosa não vista (fezes sólidas)",
+            "1": "1 – parte da mucosa vista",
+            "2": "2 – resíduo mínimo, mucosa bem vista",
+            "3": "3 – toda a mucosa bem vista"
+          }
+        }
+      ],
+      [
+        "esq",
+        "Cólon esquerdo (descendente, sigmoide e reto)",
+        "sel",
+        {
+          "opts": {
+            "0": "0 – mucosa não vista (fezes sólidas)",
+            "1": "1 – parte da mucosa vista",
+            "2": "2 – resíduo mínimo, mucosa bem vista",
+            "3": "3 – toda a mucosa bem vista"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>Cada segmento recebe de 0 a 3 <strong>após</strong> lavagem e aspiração:</p><ul><li><strong>0</strong>: segmento não preparado, mucosa não vista por fezes sólidas que não saem.</li><li><strong>1</strong>: parte da mucosa vista; outras áreas encobertas por manchas, fezes residuais ou líquido opaco.</li><li><strong>2</strong>: pequenos resíduos, mucosa bem vista.</li><li><strong>3</strong>: toda a mucosa bem vista, sem resíduos.</li></ul><p>Total de 0 a 9.</p>",
+    "table": [
+      [
+        "Resultado",
+        "Interpretação"
+      ],
+      [
+        "Total ≥ 6 e todos os segmentos ≥ 2",
+        "Preparo adequado: seguir o intervalo recomendado"
+      ],
+      [
+        "Total &lt; 6 ou algum segmento &lt; 2",
+        "Preparo inadequado: repetir o exame, em geral em até 1 ano"
+      ]
+    ],
+    "tips": [
+      "Pontue depois de lavar e aspirar: a escala avalia o que foi possível ver, não o aspecto inicial.",
+      "Segmentos com nota 2 ou 3 associam-se a maior detecção de pólipos (Calderwood 2010); por isso o critério exige ≥ 2 em cada segmento.",
+      "Registre as três notas e o total no laudo (ex.: 3-2-3 = 8); o total isolado esconde um segmento mal preparado.",
+      "Preparo em dose dividida (metade na véspera, metade no dia) melhora a limpeza, sobretudo do cólon direito.",
+      "Meta de qualidade do serviço: preparo adequado em pelo menos 85 a 90% das colonoscopias ambulatoriais."
+    ],
+    "sources": [
+      [
+        "Lai EJ et al. The Boston bowel preparation scale: a valid and reliable instrument for colonoscopy-oriented research. Gastrointest Endosc, 2009.",
+        "https://doi.org/10.1016/j.gie.2008.05.057"
+      ],
+      [
+        "Calderwood AH, Jacobson BC. Comprehensive validation of the Boston Bowel Preparation Scale. Gastrointest Endosc, 2010.",
+        "https://doi.org/10.1016/j.gie.2010.06.068"
+      ],
+      [
+        "Johnson DA et al. Optimizing adequacy of bowel cleansing for colonoscopy: recommendations from the US Multi-Society Task Force on Colorectal Cancer. Gastroenterology, 2014.",
+        "https://doi.org/10.1053/j.gastro.2014.07.002"
+      ]
+    ],
+    "cases": [
+      [
+        "3-3-3: 9, adequado",
+        {
+          "dir": "3",
+          "trans": "3",
+          "esq": "3"
+        },
+        {
+          "score": 9,
+          "level": "low",
+          "verdict": "adequado"
+        }
+      ],
+      [
+        "2-2-2: 6, adequado (limite)",
+        {
+          "dir": "2",
+          "trans": "2",
+          "esq": "2"
+        },
+        {
+          "score": 6,
+          "level": "low",
+          "verdict": "adequado"
+        }
+      ],
+      [
+        "1-3-3: 7, inadequado pelo cólon direito",
+        {
+          "dir": "1",
+          "trans": "3",
+          "esq": "3"
+        },
+        {
+          "score": 7,
+          "level": "high",
+          "verdict": "inadequado"
+        }
+      ],
+      [
+        "1-1-1: 3, inadequado",
+        {
+          "dir": "1",
+          "trans": "1",
+          "esq": "1"
+        },
+        {
+          "score": 3,
+          "level": "high"
+        }
+      ]
+    ],
+    "batch": "renal-digestivo",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "renal-digestivo",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/renal-digestivo.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/renal-digestivo.php",
+    "sha256": "95087d729438637d36e1a49af04d8de0fe1d9f7876443084443906a9281ef107",
+    "bytes": 109421
+  },
+  "clinicalValidation": "not-performed"
+}
