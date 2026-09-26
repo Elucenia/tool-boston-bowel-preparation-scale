@@ -1,11 +1,11 @@
-/* tool-boston-bowel-preparation-scale · Elucenia · https://github.com/Elucenia/tool-boston-bowel-preparation-scale
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-boston-bowel-preparation-scale · ELUCENIA · https://github.com/Elucenia/tool-boston-bowel-preparation-scale
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"boston-bowel-preparation-scale","title":"Escala de Boston (BBPS)","fields":[["dir","Cólon direito (ceco e ascendente)","sel",{"opts":{"0":"0 – mucosa não vista (fezes sólidas)","1":"1 – parte da mucosa vista","2":"2 – resíduo mínimo, mucosa bem vista","3":"3 – toda a mucosa bem vista"}}],["trans","Cólon transverso (flexuras incluídas)","sel",{"opts":{"0":"0 – mucosa não vista (fezes sólidas)","1":"1 – parte da mucosa vista","2":"2 – resíduo mínimo, mucosa bem vista","3":"3 – toda a mucosa bem vista"}}],["esq","Cólon esquerdo (descendente, sigmoide e reto)","sel",{"opts":{"0":"0 – mucosa não vista (fezes sólidas)","1":"1 – parte da mucosa vista","2":"2 – resíduo mínimo, mucosa bem vista","3":"3 – toda a mucosa bem vista"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};

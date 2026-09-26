@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-boston-bowel-preparation-scale",
   "version": "0.1.0",
-  "description": "Escala de Boston (BBPS) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Escala de Boston (BBPS) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
