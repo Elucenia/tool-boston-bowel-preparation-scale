@@ -5,12 +5,12 @@
     "short": "Qualidade do preparo intestinal na colonoscopia",
     "desc": "Calcule a Escala de Preparo Intestinal de Boston (BBPS): nota de 0 a 3 por segmento do cólon e total de 0 a 9, com o critério de preparo adequado.",
     "lead": "Pontua a limpeza de cada segmento do cólon depois das manobras de lavagem e aspiração. Padroniza o laudo e define se o preparo foi adequado para detectar pólipos.",
+    "kind": "Calculadora",
     "spec": [
       "endoscopia",
       "coloproctologia",
       "gastroenterologia"
     ],
-    "tier": 1,
     "fields": [
       [
         "dir",
@@ -53,27 +53,6 @@
       ]
     ],
     "formula": "<p>Cada segmento recebe de 0 a 3 <strong>após</strong> lavagem e aspiração:</p><ul><li><strong>0</strong>: segmento não preparado, mucosa não vista por fezes sólidas que não saem.</li><li><strong>1</strong>: parte da mucosa vista; outras áreas encobertas por manchas, fezes residuais ou líquido opaco.</li><li><strong>2</strong>: pequenos resíduos, mucosa bem vista.</li><li><strong>3</strong>: toda a mucosa bem vista, sem resíduos.</li></ul><p>Total de 0 a 9.</p>",
-    "table": [
-      [
-        "Resultado",
-        "Interpretação"
-      ],
-      [
-        "Total ≥ 6 e todos os segmentos ≥ 2",
-        "Preparo adequado: seguir o intervalo recomendado"
-      ],
-      [
-        "Total &lt; 6 ou algum segmento &lt; 2",
-        "Preparo inadequado: repetir o exame, em geral em até 1 ano"
-      ]
-    ],
-    "tips": [
-      "Pontue depois de lavar e aspirar: a escala avalia o que foi possível ver, não o aspecto inicial.",
-      "Segmentos com nota 2 ou 3 associam-se a maior detecção de pólipos (Calderwood 2010); por isso o critério exige ≥ 2 em cada segmento.",
-      "Registre as três notas e o total no laudo (ex.: 3-2-3 = 8); o total isolado esconde um segmento mal preparado.",
-      "Preparo em dose dividida (metade na véspera, metade no dia) melhora a limpeza, sobretudo do cólon direito.",
-      "Meta de qualidade do serviço: preparo adequado em pelo menos 85 a 90% das colonoscopias ambulatoriais."
-    ],
     "sources": [
       [
         "Lai EJ et al. The Boston bowel preparation scale: a valid and reliable instrument for colonoscopy-oriented research. Gastrointest Endosc, 2009.",
@@ -141,9 +120,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -152,17 +128,237 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:01:58.037Z",
+      "total": 64,
+      "passed": 64,
+      "evidencePath": "reports/review-20261003/four-additional-score-source-oracles-final23.json",
+      "evidenceSha256": "7cc224441c13fd989be61866ed070958061dee40c47c8ba632f3edbd6330f1c1",
+      "peerEvidencePath": "reports/review-20261003/independent-four-additional-score-source-oracles-final23.json",
+      "peerEvidenceSha256": "516e1b32ed4a2fd53ba8be2d26e9485ca027e6f185f3e2cd2873dcc3e3249fe7",
+      "scope": "Entered point sum only; wording, applicability, thresholds, diagnostic decisions, translations, licensing and overall release suitability are not approved.",
+      "source": {
+        "keys": [
+          "dir",
+          "trans",
+          "esq"
+        ],
+        "options": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "booleans": [],
+        "exhaustive": true,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2763922/",
+        "edition": "Lai2009, DOI10.1016/j.gie.2008.05.057",
+        "locator": "Patients and Methods: Development of the Boston Bowel Preparation Scale",
+        "access": "Original Methods read directly on2026-10-04: three colon regions, each0–3 after cleansing, sum0–9. These tests do not approve cleansing technique or adequate-preparation thresholds."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "boston-bowel-preparation-scale",
+          "sha256": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
+        },
+        {
+          "app": "dashboard",
+          "id": "boston-bowel-preparation-scale",
+          "sha256": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
+        },
+        {
+          "app": "command-center",
+          "id": "boston-bowel-preparation-scale",
+          "sha256": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
+        }
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "BBPS/Lai 2009:3 segmentos 0–3, após lavagem/aspiração, total 0–9",
+    "implementationVersion": "boston-bowel-preparation-scale@native-2026-10-03+5fc6fd133846",
+    "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2763922/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Cada segmento recebe de 0 a 3 após lavagem e aspiração: 0 : segmento não preparado, mucosa não vista por fezes sólidas que não saem. 1 : parte da mucosa vista; outras áreas encobertas por manchas, fezes residuais ou líquido opaco. 2 : pequenos resíduos, mucosa bem vista. 3 : toda a mucosa bem vista, sem resíduos. Total de 0 a 9.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "dir",
+            "label": "Cólon direito (ceco e ascendente)",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 – mucosa não vista (fezes sólidas)",
+              "1": "1 – parte da mucosa vista",
+              "2": "2 – resíduo mínimo, mucosa bem vista",
+              "3": "3 – toda a mucosa bem vista"
+            }
+          },
+          {
+            "key": "trans",
+            "label": "Cólon transverso (flexuras incluídas)",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 – mucosa não vista (fezes sólidas)",
+              "1": "1 – parte da mucosa vista",
+              "2": "2 – resíduo mínimo, mucosa bem vista",
+              "3": "3 – toda a mucosa bem vista"
+            }
+          },
+          {
+            "key": "esq",
+            "label": "Cólon esquerdo (descendente, sigmoide e reto)",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 – mucosa não vista (fezes sólidas)",
+              "1": "1 – parte da mucosa vista",
+              "2": "2 – resíduo mínimo, mucosa bem vista",
+              "3": "3 – toda a mucosa bem vista"
+            }
+          }
+        ],
+        "hash": "d4070f97ffa10005ed573065104b861d023cce9a37f6acfa8383d66d7474aed3"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Lai EJ et al. The Boston bowel preparation scale: a valid and reliable instrument for colonoscopy-oriented research. Gastrointest Endosc, 2009.",
+          "url": "https://doi.org/10.1016/j.gie.2008.05.057",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The Boston bowel preparation scale: a valid and reliable instrument for colonoscopy-oriented research.",
+            "year": "2009",
+            "firstPublicationDate": "2009-01-10",
+            "doi": "10.1016/j.gie.2008.05.057",
+            "pmid": "19136102",
+            "pmcid": "PMC2763922",
+            "journal": "Gastrointestinal endoscopy",
+            "authors": "Lai EJ, Calderwood AH, Doros G, Fix OK, Jacobson BC."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2763922/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "5b4299a98e942516bf0fc426e1a1f6cf692d03a7234e077875fffaf2998d7c67",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Calderwood AH, Jacobson BC. Comprehensive validation of the Boston Bowel Preparation Scale. Gastrointest Endosc, 2010.",
+          "url": "https://doi.org/10.1016/j.gie.2010.06.068",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Comprehensive validation of the Boston Bowel Preparation Scale.",
+            "year": "2010",
+            "firstPublicationDate": "2010-10-01",
+            "doi": "10.1016/j.gie.2010.06.068",
+            "pmid": "20883845",
+            "pmcid": "PMC2951305",
+            "journal": "Gastrointestinal endoscopy",
+            "authors": "Calderwood AH, Jacobson BC."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2951305/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "6be09bf5a80ed261a14373b9ec01143614475736f7d706ce0b298b31dd81058f",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Johnson DA et al. Optimizing adequacy of bowel cleansing for colonoscopy: recommendations from the US Multi-Society Task Force on Colorectal Cancer. Gastroenterology, 2014.",
+          "url": "https://doi.org/10.1053/j.gastro.2014.07.002",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Optimizing adequacy of bowel cleansing for colonoscopy: recommendations from the US multi-society task force on colorectal cancer.",
+            "year": "2014",
+            "firstPublicationDate": "2014-10-01",
+            "doi": "10.1053/j.gastro.2014.07.002",
+            "pmid": "25239068",
+            "journal": "Gastroenterology",
+            "authors": "Johnson DA, Barkun AN, Cohen LB, Dominitz JA, Kaltenbach T, Martel M, Robertson DJ, Boland CR, Giardello FM, Lieberman DA, Levin TR, Rex DK, US Multi-Society Task Force on Colorectal Cancer."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/25239068/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:01:58.037Z",
+        "total": 64,
+        "passed": 64,
+        "evidencePath": "reports/review-20261003/four-additional-score-source-oracles-final23.json",
+        "scope": "Entered point sum only; wording, applicability, thresholds, diagnostic decisions, translations, licensing and overall release suitability are not approved.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "16a4a7e4beb1d58277399819e9f3205074fa6de97f514f712d5255bb66021240"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
+    },
+    "limits": "A BBPS foi desenvolvida para pontuar a limpeza observada na inspeção após lavagem e aspiração pelo endoscopista. O estudo original de centro único não confirma automaticamente os cortes de adequação ou intervalos de repetição adotados em recomendações posteriores. A avaliação de cada segmento e a edição desses critérios devem ser preservadas.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.831Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não confirma o corte posterior ≥ 6 com cada segmento ≥ 2; tabela segmentar e recomendações de repetição dependem das fontes posteriores."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/boston-bowel-preparation-scale/calculator.js",
+    "bytes": 5388,
+    "sha256": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "98f22676b829e5425fa1acdde4b9576dd0d57241eff0d28a9833f7fce9856726",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 64,
+      "sha256": "30e0f2ab654f4d6334b82ca66123f4f25cd7dd17a8cb79a5203dd10c2f4c25eb",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
