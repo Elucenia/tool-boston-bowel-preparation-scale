@@ -92,3 +92,53 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Adequate preparation (total ≥ 6 and all segments ≥ 2)
+
+| Result details | |
+| --- | --- |
+| Right colon | 3 |
+| Transverse colon | 3 |
+| Left colon | 3 |
+
+
+### 2
+
+Adequate preparation (total ≥ 6 and all segments ≥ 2)
+
+| Result details | |
+| --- | --- |
+| Right colon | 2 |
+| Transverse colon | 2 |
+| Left colon | 2 |
+
+
+### 3
+
+Inadequate preparation: repeat colonoscopy at a short interval
+
+| Result details | |
+| --- | --- |
+| Right colon | 1 |
+| Transverse colon | 3 |
+| Left colon | 3 |
+
+Total ≥ 6, but there is a segment with a score < 2: the preparation is not considered adequate.
+
+
+### 4
+
+Inadequate preparation: repeat colonoscopy at a short interval
+
+| Result details | |
+| --- | --- |
+| Right colon | 1 |
+| Transverse colon | 1 |
+| Left colon | 1 |
+

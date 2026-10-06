@@ -92,3 +92,53 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Angemessene Vorbereitung (Gesamt ≥ 6 und alle Segmente ≥ 2)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Rechter Kolon | 3 |
+| Querkolon | 3 |
+| Linker Kolon | 3 |
+
+
+### 2
+
+Angemessene Vorbereitung (Gesamt ≥ 6 und alle Segmente ≥ 2)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Rechter Kolon | 2 |
+| Querkolon | 2 |
+| Linker Kolon | 2 |
+
+
+### 3
+
+Unzureichende Vorbereitung: Koloskopie in kurzem Intervall wiederholen
+
+| Ergebnisdetails | |
+| --- | --- |
+| Rechter Kolon | 1 |
+| Querkolon | 3 |
+| Linker Kolon | 3 |
+
+Gesamt ≥ 6, aber es gibt ein Segment mit einem Score < 2: Die Vorbereitung gilt nicht als angemessen.
+
+
+### 4
+
+Unzureichende Vorbereitung: Koloskopie in kurzem Intervall wiederholen
+
+| Ergebnisdetails | |
+| --- | --- |
+| Rechter Kolon | 1 |
+| Querkolon | 1 |
+| Linker Kolon | 1 |
+

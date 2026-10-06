@@ -92,3 +92,53 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Préparation adéquate (total ≥ 6 et tous les segments ≥ 2)
+
+| Détails du résultat | |
+| --- | --- |
+| Côlon droit | 3 |
+| Côlon transverse | 3 |
+| Côlon gauche | 3 |
+
+
+### 2
+
+Préparation adéquate (total ≥ 6 et tous les segments ≥ 2)
+
+| Détails du résultat | |
+| --- | --- |
+| Côlon droit | 2 |
+| Côlon transverse | 2 |
+| Côlon gauche | 2 |
+
+
+### 3
+
+Préparation inadéquate : répéter la coloscopie à court intervalle
+
+| Détails du résultat | |
+| --- | --- |
+| Côlon droit | 1 |
+| Côlon transverse | 3 |
+| Côlon gauche | 3 |
+
+Total ≥ 6, mais il existe un segment avec un score < 2 : la préparation n’est pas considérée comme adéquate.
+
+
+### 4
+
+Préparation inadéquate : répéter la coloscopie à court intervalle
+
+| Détails du résultat | |
+| --- | --- |
+| Côlon droit | 1 |
+| Côlon transverse | 1 |
+| Côlon gauche | 1 |
+

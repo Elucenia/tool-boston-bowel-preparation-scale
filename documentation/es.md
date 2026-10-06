@@ -92,3 +92,53 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Preparación adecuada (total ≥ 6 y todos los segmentos ≥ 2)
+
+| Detalles del resultado | |
+| --- | --- |
+| Colon derecho | 3 |
+| Colon transverso | 3 |
+| Colon izquierdo | 3 |
+
+
+### 2
+
+Preparación adecuada (total ≥ 6 y todos los segmentos ≥ 2)
+
+| Detalles del resultado | |
+| --- | --- |
+| Colon derecho | 2 |
+| Colon transverso | 2 |
+| Colon izquierdo | 2 |
+
+
+### 3
+
+Preparación inadecuada: repetir la colonoscopia en un intervalo corto
+
+| Detalles del resultado | |
+| --- | --- |
+| Colon derecho | 1 |
+| Colon transverso | 3 |
+| Colon izquierdo | 3 |
+
+Total ≥ 6, pero hay un segmento con puntuación < 2: la preparación no se considera adecuada.
+
+
+### 4
+
+Preparación inadecuada: repetir la colonoscopia en un intervalo corto
+
+| Detalles del resultado | |
+| --- | --- |
+| Colon derecho | 1 |
+| Colon transverso | 1 |
+| Colon izquierdo | 1 |
+

@@ -1,0 +1,2481 @@
+{
+  "id": "boston-bowel-preparation-scale",
+  "implementationVersion": "boston-bowel-preparation-scale@native-2026-10-05+62836663b092",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cólon direito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cólon transverso",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Cólon esquerdo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparo adequado (total ≥ 6 e todos os segmentos ≥ 2)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cólon direito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cólon transverso",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Cólon esquerdo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparo adequado (total ≥ 6 e todos os segmentos ≥ 2)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cólon direito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cólon transverso",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Cólon esquerdo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparo inadequado: repetir a colonoscopia em intervalo curto",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Total ≥ 6, mas há segmento com nota < 2: o preparo não é considerado adequado.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cólon direito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cólon transverso",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Cólon esquerdo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparo inadequado: repetir a colonoscopia em intervalo curto",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Right colon",
+                "locale": "en",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Transverse colon",
+                "locale": "en",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Left colon",
+                "locale": "en",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Adequate preparation (total ≥ 6 and all segments ≥ 2)",
+            "locale": "en",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Right colon",
+                "locale": "en",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Transverse colon",
+                "locale": "en",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Left colon",
+                "locale": "en",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Adequate preparation (total ≥ 6 and all segments ≥ 2)",
+            "locale": "en",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Right colon",
+                "locale": "en",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Transverse colon",
+                "locale": "en",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Left colon",
+                "locale": "en",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Inadequate preparation: repeat colonoscopy at a short interval",
+            "locale": "en",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "Total ≥ 6, but there is a segment with a score < 2: the preparation is not considered adequate.",
+            "locale": "en",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Right colon",
+                "locale": "en",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Transverse colon",
+                "locale": "en",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Left colon",
+                "locale": "en",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Inadequate preparation: repeat colonoscopy at a short interval",
+            "locale": "en",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon derecho",
+                "locale": "es",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon transverso",
+                "locale": "es",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon izquierdo",
+                "locale": "es",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparación adecuada (total ≥ 6 y todos los segmentos ≥ 2)",
+            "locale": "es",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon derecho",
+                "locale": "es",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon transverso",
+                "locale": "es",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon izquierdo",
+                "locale": "es",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparación adecuada (total ≥ 6 y todos los segmentos ≥ 2)",
+            "locale": "es",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon derecho",
+                "locale": "es",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon transverso",
+                "locale": "es",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon izquierdo",
+                "locale": "es",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparación inadecuada: repetir la colonoscopia en un intervalo corto",
+            "locale": "es",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "Total ≥ 6, pero hay un segmento con puntuación < 2: la preparación no se considera adecuada.",
+            "locale": "es",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon derecho",
+                "locale": "es",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon transverso",
+                "locale": "es",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon izquierdo",
+                "locale": "es",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparación inadecuada: repetir la colonoscopia en un intervalo corto",
+            "locale": "es",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Côlon droit",
+                "locale": "fr",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Côlon transverse",
+                "locale": "fr",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Côlon gauche",
+                "locale": "fr",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Préparation adéquate (total ≥ 6 et tous les segments ≥ 2)",
+            "locale": "fr",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Côlon droit",
+                "locale": "fr",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Côlon transverse",
+                "locale": "fr",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Côlon gauche",
+                "locale": "fr",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Préparation adéquate (total ≥ 6 et tous les segments ≥ 2)",
+            "locale": "fr",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Côlon droit",
+                "locale": "fr",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Côlon transverse",
+                "locale": "fr",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Côlon gauche",
+                "locale": "fr",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Préparation inadéquate : répéter la coloscopie à court intervalle",
+            "locale": "fr",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "Total ≥ 6, mais il existe un segment avec un score < 2 : la préparation n’est pas considérée comme adéquate.",
+            "locale": "fr",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Côlon droit",
+                "locale": "fr",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Côlon transverse",
+                "locale": "fr",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Côlon gauche",
+                "locale": "fr",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Préparation inadéquate : répéter la coloscopie à court intervalle",
+            "locale": "fr",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rechter Kolon",
+                "locale": "de",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Querkolon",
+                "locale": "de",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Linker Kolon",
+                "locale": "de",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Angemessene Vorbereitung (Gesamt ≥ 6 und alle Segmente ≥ 2)",
+            "locale": "de",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rechter Kolon",
+                "locale": "de",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Querkolon",
+                "locale": "de",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Linker Kolon",
+                "locale": "de",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Angemessene Vorbereitung (Gesamt ≥ 6 und alle Segmente ≥ 2)",
+            "locale": "de",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rechter Kolon",
+                "locale": "de",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Querkolon",
+                "locale": "de",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Linker Kolon",
+                "locale": "de",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Unzureichende Vorbereitung: Koloskopie in kurzem Intervall wiederholen",
+            "locale": "de",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "Gesamt ≥ 6, aber es gibt ein Segment mit einem Score < 2: Die Vorbereitung gilt nicht als angemessen.",
+            "locale": "de",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rechter Kolon",
+                "locale": "de",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Querkolon",
+                "locale": "de",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Linker Kolon",
+                "locale": "de",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Unzureichende Vorbereitung: Koloskopie in kurzem Intervall wiederholen",
+            "locale": "de",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon destro",
+                "locale": "it",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon trasverso",
+                "locale": "it",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon sinistro",
+                "locale": "it",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparazione adeguata (totale ≥ 6 e tutti i segmenti ≥ 2)",
+            "locale": "it",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon destro",
+                "locale": "it",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon trasverso",
+                "locale": "it",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon sinistro",
+                "locale": "it",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparazione adeguata (totale ≥ 6 e tutti i segmenti ≥ 2)",
+            "locale": "it",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon destro",
+                "locale": "it",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon trasverso",
+                "locale": "it",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon sinistro",
+                "locale": "it",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparazione inadeguata: ripetere la colonscopia a breve intervallo",
+            "locale": "it",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "Totale ≥ 6, ma c’è un segmento con punteggio < 2: la preparazione non è considerata adeguata.",
+            "locale": "it",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Colon destro",
+                "locale": "it",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Colon trasverso",
+                "locale": "it",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Colon sinistro",
+                "locale": "it",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Preparazione inadeguata: ripetere la colonscopia a breve intervallo",
+            "locale": "it",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القولون الأيمن",
+                "locale": "ar",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القولون المستعرض",
+                "locale": "ar",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "القولون الأيسر",
+                "locale": "ar",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "تحضير كافٍ (الإجمالي ≥ 6 وجميع المقاطع ≥ 2)",
+            "locale": "ar",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القولون الأيمن",
+                "locale": "ar",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القولون المستعرض",
+                "locale": "ar",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "القولون الأيسر",
+                "locale": "ar",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "تحضير كافٍ (الإجمالي ≥ 6 وجميع المقاطع ≥ 2)",
+            "locale": "ar",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القولون الأيمن",
+                "locale": "ar",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القولون المستعرض",
+                "locale": "ar",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "القولون الأيسر",
+                "locale": "ar",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "تحضير غير كافٍ: كرر تنظير القولون خلال فترة قصيرة",
+            "locale": "ar",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "الإجمالي ≥ 6، لكن هناك مقطعًا درجته < 2: لا يُعدّ التحضير كافيًا.",
+            "locale": "ar",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القولون الأيمن",
+                "locale": "ar",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القولون المستعرض",
+                "locale": "ar",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "القولون الأيسر",
+                "locale": "ar",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "تحضير غير كافٍ: كرر تنظير القولون خلال فترة قصيرة",
+            "locale": "ar",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右结肠",
+                "locale": "zh",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横结肠",
+                "locale": "zh",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左结肠",
+                "locale": "zh",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "肠道准备充分（总分 ≥ 6 且所有分段 ≥ 2）",
+            "locale": "zh",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右结肠",
+                "locale": "zh",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横结肠",
+                "locale": "zh",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左结肠",
+                "locale": "zh",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "肠道准备充分（总分 ≥ 6 且所有分段 ≥ 2）",
+            "locale": "zh",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右结肠",
+                "locale": "zh",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横结肠",
+                "locale": "zh",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左结肠",
+                "locale": "zh",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "肠道准备不充分：应在短间隔内重复结肠镜检查",
+            "locale": "zh",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "总分 ≥ 6，但有一个分段评分 < 2：该准备不被视为充分。",
+            "locale": "zh",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右结肠",
+                "locale": "zh",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横结肠",
+                "locale": "zh",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左结肠",
+                "locale": "zh",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "肠道准备不充分：应在短间隔内重复结肠镜检查",
+            "locale": "zh",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右側結腸",
+                "locale": "ja",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横行結腸",
+                "locale": "ja",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左側結腸",
+                "locale": "ja",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "前処置良好（合計 ≥ 6 かつ全セグメント ≥ 2）",
+            "locale": "ja",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右側結腸",
+                "locale": "ja",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横行結腸",
+                "locale": "ja",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左側結腸",
+                "locale": "ja",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "前処置良好（合計 ≥ 6 かつ全セグメント ≥ 2）",
+            "locale": "ja",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右側結腸",
+                "locale": "ja",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横行結腸",
+                "locale": "ja",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左側結腸",
+                "locale": "ja",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "前処置不十分：短期間で大腸内視鏡検査を再実施する",
+            "locale": "ja",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "合計 ≥ 6 だが、スコア < 2 の区域があるため、前処置は適切とみなされない。",
+            "locale": "ja",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "右側結腸",
+                "locale": "ja",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "横行結腸",
+                "locale": "ja",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "左側結腸",
+                "locale": "ja",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "前処置不十分：短期間で大腸内視鏡検査を再実施する",
+            "locale": "ja",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "3-3-3: 9, adequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "दायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अनुप्रस्थ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "बायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पर्याप्त तैयारी (कुल ≥ 6 और सभी सेगमेंट ≥ 2)",
+            "locale": "hi",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2-2-2: 6, adequado (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "दायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अनुप्रस्थ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "बायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पर्याप्त तैयारी (कुल ≥ 6 और सभी सेगमेंट ≥ 2)",
+            "locale": "hi",
+            "template": "documented-authored-cf406cb7bb23eef4dfd0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "1-3-3: 7, inadequado pelo cólon direito",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "दायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अनुप्रस्थ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "बायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अपर्याप्त तैयारी: कम अंतराल पर कोलोनोस्कोपी दोहराएँ",
+            "locale": "hi",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "note": {
+            "text": "कुल ≥ 6 है, लेकिन एक सेगमेंट का स्कोर < 2 है: तैयारी को पर्याप्त नहीं माना जाता।",
+            "locale": "hi",
+            "template": "documented-authored-3d874fe415fb412173a2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "1-1-1: 3, inadequado",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "दायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-4bfff65d8891ca90aaf6"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अनुप्रस्थ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-7719cdfb8b259122e76a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "बायाँ कोलन",
+                "locale": "hi",
+                "template": "documented-authored-3b2d5360b24c53f94c91"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-56b82e3fa373c42effc1",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अपर्याप्त तैयारी: कम अंतराल पर कोलोनोस्कोपी दोहराएँ",
+            "locale": "hi",
+            "template": "documented-authored-7f1746494d5ec4b4f98f"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

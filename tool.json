@@ -193,7 +193,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "BBPS/Lai 2009:3 segmentos 0–3, após lavagem/aspiração, total 0–9",
-    "implementationVersion": "boston-bowel-preparation-scale@native-2026-10-03+5fc6fd133846",
+    "implementationVersion": "boston-bowel-preparation-scale@native-2026-10-05+62836663b092",
     "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2763922/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -328,7 +328,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
+      "implementationHash": "62836663b092f93e3f3585402ad0636c902d9a37fd1d3064ae6355a196da308c",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "boston-bowel-preparation-scale@native-2026-10-03+5fc6fd133846",
+          "previousImplementationHash": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d",
+          "implementationHash": "62836663b092f93e3f3585402ad0636c902d9a37fd1d3064ae6355a196da308c",
+          "scientificBodySha256": "8e90df1a842fcf692e0aa194b41d45d200159247f2ca4faf2c115074dbbc0724",
+          "metadataContractHash": "d4070f97ffa10005ed573065104b861d023cce9a37f6acfa8383d66d7474aed3",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A BBPS foi desenvolvida para pontuar a limpeza observada na inspeção após lavagem e aspiração pelo endoscopista. O estudo original de centro único não confirma automaticamente os cortes de adequação ou intervalos de repetição adotados em recomendações posteriores. A avaliação de cada segmento e a edição desses critérios devem ser preservadas.",
     "sourceLimitEvidence": {
@@ -347,15 +375,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/boston-bowel-preparation-scale/calculator.js",
-    "bytes": 5388,
-    "sha256": "5fc6fd1338463dd142697171100cfa3627c32eff4d5b98bcbfc70b626851634d"
+    "bytes": 5593,
+    "sha256": "62836663b092f93e3f3585402ad0636c902d9a37fd1d3064ae6355a196da308c"
   },
-  "sourceToolSha256": "98f22676b829e5425fa1acdde4b9576dd0d57241eff0d28a9833f7fce9856726",
+  "sourceToolSha256": "e2569a26ad6ccee7820c2a713f926c576d2ea412ff9233092edd21088d8978e7",
   "omittedFullReferenceBanks": [
     {
       "rows": 64,
       "sha256": "30e0f2ab654f4d6334b82ca66123f4f25cd7dd17a8cb79a5203dd10c2f4c25eb",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",
